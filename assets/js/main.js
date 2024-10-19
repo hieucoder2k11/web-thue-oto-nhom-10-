@@ -1,7 +1,7 @@
 const object = {
     audiCars: [
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -9,7 +9,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -17,7 +17,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -25,7 +25,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -33,7 +33,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -41,7 +41,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -51,7 +51,7 @@ const object = {
     ],
     bmwCars: [
         {
-            image: '/car/BMW/2024-BMW-520i-1.jpg',
+            image: '../assets/images/car/BMW/2024-BMW-520i-1.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -59,7 +59,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/BMW/2024-BMW-520i-1.jpg',
+            image: '../assets/images/car/BMW/2024-BMW-520i-1.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -67,7 +67,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -75,7 +75,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -83,7 +83,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -91,7 +91,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -101,7 +101,7 @@ const object = {
     ],
     vinfastCars: [
         {
-            image: '/car/BMW/2024-BMW-520i-1.jpg',
+            image: '../assets/images/car/BMW/2024-BMW-520i-1.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -109,7 +109,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/BMW/2024-BMW-520i-1.jpg',
+            image: '../assets/images/car/BMW/2024-BMW-520i-1.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -117,7 +117,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -125,7 +125,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -133,7 +133,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
@@ -141,7 +141,7 @@ const object = {
             status: 'Mới',        
         },
         {
-            image: '/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
+            image: '../assets/images/car/Audi/Audi R8 Coupé V10 GT RWD.jpg',
             name: 'Audi R8 coupe v10 GT RWD',
             price: 3000,
             des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus tempora aperiam corrupti, quam quo voluptate ratione asperiores cumque architecto. Corrupti unde, repellat deleniti ipsum ipsa eos voluptas magnam rerum aliquid aliquam, quidem autem earum iusto?',
