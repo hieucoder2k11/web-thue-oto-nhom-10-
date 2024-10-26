@@ -9,9 +9,13 @@
 
 @keyframes grow-up {
     from {
-        transform: scale(0);
+        transform: scale(var(--scale-from));
     }
     to {
-        transform: scale(1);
+        transform: scale(var(--scale-to));
     }
+}
+
+.fade-in {
+    animation: fade-in 0.3s linear;
 }

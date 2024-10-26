@@ -24,13 +24,17 @@ html {
     top: 0;
     right: 0;
     left: 0;
-    background-color: #999;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    /* background-color: red; */
     /* height: 100px; */
 }
 
@@ -106,8 +110,10 @@ html {
     box-shadow: 0px 0 6px rgba(0, 0, 0, 0.1);
     transform-origin: top right;
     background-color: #fff;
-    animation: fade-in 0.3s linear, grow-up 0.3s linear;
     display: none;
+    --scale-from: 0;
+    --scale-to: 1;
+    animation: fade-in 0.3s linear, grow-up 0.3s linear;
 }
 
 .drop-down--content::before {
@@ -160,9 +166,10 @@ html {
 
 .header__icon {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     width: 200px;
+    column-gap: 20px;
     /* background-color: red; */
 }
 
@@ -206,6 +213,7 @@ html {
 .header__search {
     position: relative;
     height: 30px;
+    width: 100%;
 }
 
 .header__search input {
@@ -221,7 +229,8 @@ html {
 }
 
 .header__search input:focus {
-    width: 120px;
+    width: 100%;
+
 }
 
 .header__search label i {

@@ -48,6 +48,12 @@
                 </ul>
             </nav>
             <div class="header__icon">
+               
+
+                <div class="header__search">
+                    <input type="search" name="search" id="search">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                </div>
                 <div class="header__cart-icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <ul class="header__cart-icon--drop-down">
@@ -58,13 +64,30 @@
                         <li>4</li>
                     </ul>
                 </div>
-
-                <div class="header__search">
-                    <input type="search" name="search" id="search">
-                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
-                </div>
             </div>
         </div>
     </div>
+    <div class="main" style="width: 100%; height: 5000px; background-color: aquamarine;"></div>
+    <script>
+            // Header Events
+    let header = document.querySelector('.header')
+    const headerHeight = header.offsetHeight
+    window.onscroll = function() {
+        header.style.top = -window.scrollY + 'px'
+        console.log(window.scrollY)
+        if( window.scrollY >= headerHeight*6) {
+            header.classList.add('fade-in')
+            header.style.top = 0
+            header.style.backgroundColor = '#fff'
+            header.style.height = headerHeight*1.5 + 'px'
+        }
+        else {
+            header.classList.remove('fade-in')
+            header.style.backgroundColor = ''
+            header.style.height = headerHeight + 'px'            
+        }
+    }
+    console.log(header.offsetHeight)
+    </script>
 </body>
 </html>
