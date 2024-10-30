@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="main" style="width: 100%; height: 5000px; background-color: aquamarine;"></div>
+    <div class="main" style="width: 100%; height: 5000px; background-color: #fff;"></div>
     <script>
             // Header Events
     let header = document.querySelector('.header')
@@ -80,11 +80,14 @@
             header.style.top = 0
             header.style.backgroundColor = '#fff'
             header.style.height = headerHeight*1.5 + 'px'
+            header.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)'
         }
         else {
             header.classList.remove('fade-in')
             header.style.backgroundColor = ''
-            header.style.height = headerHeight + 'px'            
+            header.style.height = headerHeight + 'px'     
+            header.style.boxShadow = ''
+
         }
     }
     console.log(header.offsetHeight)
