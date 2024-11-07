@@ -46,6 +46,7 @@ html {
 .header__navbar {
     /* background-color: #000; */
     display: block;
+    /* transform: translateX(0); */
 }
 
 .navbar__list {
@@ -61,6 +62,7 @@ html {
 .navbar__item {
     padding: 6px;
     position: relative;
+    cursor: pointer;
 }
 
 .navbar__link {
@@ -70,15 +72,10 @@ html {
     font-size: 1.4rem;
 }
 
-
-
 .navbar__item .active {
     color: var(--primary-color);
 }
 
-.navbar__link:hover:not(.active) {
-    color: var(--primary-color);
-}
 
 .drop-down--container {
     position: relative;
@@ -95,15 +92,6 @@ html {
     width: calc(100% + 50px);
     padding: 0;
     z-index: 5;
-    border-radius: 6px;
-    border: 1px solid #e4e4e4;
-    box-shadow: 0px 0 6px rgba(0, 0, 0, 0.1);
-    transform-origin: top right;
-    background-color: #fff;
-    display: none;
-    --scale-from: 0;
-    --scale-to: 1;
-    animation: fade-in 0.3s linear, grow-up 0.3s linear;
 }
 
 .drop-down--content::before {

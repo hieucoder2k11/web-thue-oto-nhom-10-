@@ -148,6 +148,44 @@ const object = {
             fuel: 'xăng',
             status: 'Mới',   
         }
+    ],
+    hotCars: [
+        {
+            name: 'Audi rs e tron gt',
+            image: './car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg',
+            price: 2300,
+            km: 6500
+        },
+        {
+            name: 'Audi rs e tron gt',
+            image: './car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg',
+            price: 2300,
+            km: 6500
+        },
+        {
+            name: 'Audi rs e tron gt',
+            image: './car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg',
+            price: 2300,
+            km: 6500
+        },
+        {
+            name: 'Audi rs e tron gt',
+            image: './car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg',
+            price: 2300,
+            km: 6500
+        },
+        {
+            name: 'Audi rs e tron gt',
+            image: './car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg',
+            price: 2300,
+            km: 6500
+        },
+        {
+            name: 'Audi rs e tron gt',
+            image: './car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg',
+            price: 2300,
+            km: 6500
+        }
     ]
 }
 

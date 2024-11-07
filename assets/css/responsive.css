@@ -3,8 +3,10 @@
 
 }
 
+/* Mobile and tablet */
 @media (max-width: 1023px) {
     /* Header */
+  
     .header__navbar {
         position: fixed;
         right: 0;
@@ -15,32 +17,61 @@
         transition: transform 0.3s linear;
         background-color: var(--black-color);
     }
+
+    .fade-in  {
+        transform: translateX(0);
+    }
+
     .navbar__list {
         flex-direction: column;
         margin-top: 100px;
+        height: 100vh;
         display: block;
+        background-color: #000;
     }
 
-    .navbar__item {
-        display: block;
-        padding: 20px;
-        padding-right: 50px;
-        text-align: end;
-
+    .drop-down--content > .navbar__item {
+        padding: 10px 30px;
+       
     }
 
     .navbar__item:hover {
         background-color: #959595;
     }
-    
+
     .navbar__link {
         color: var(--white-color);
-        /* background-color: blue; */
-       
+        display: block;
+        padding: 10px 30px;
     }
 
-    .drop-down--item-link {
-        color: var(--black-color);
+    /* .drop-down--container:hover .drop-down--content {
+        height: 123px;
+    } */
+
+    .show-link {
+        height: 123px !important;
+    }
+
+    .drop-down--content {
+        position: static;
+        /* display: none; */
+        height: 0;
+        transition: all 0.3s linear;
+        overflow: hidden;
+    }
+
+    .drop-down--content::before {
+        display: none;
+    }
+
+    .drop-down--item {
+        border: none;
+    }
+
+    .drop-down--item a {
+        color: var(--white-color);
+        padding: 0;
     }
 
     .bars .open-navbar {
@@ -50,7 +81,7 @@
     .navbar__list .close-navbar {
         position: absolute;
         top: 30px;
-        right: 50px;
+        left: 50px;
         color: #fff;
     }
 
@@ -91,7 +122,7 @@
 
 
 @media (min-width: 1024px) {
-    .navbar__item::before {
+    .navbar__list > .navbar__item::before{
         position: absolute;
         content: '';
         height: 3px;
@@ -106,4 +137,28 @@
     .navbar__item:hover::before {
         width: 100%;
     }
+
+    .navbar__link:hover:not(.active) {
+        color: var(--primary-color);
+    }
+    
+
+    .hide-on-pc {
+        display: none;
+    }
+
+    .drop-down--content {
+        border-radius: 6px;
+        border: 1px solid #e4e4e4;
+        box-shadow: 0px 0 6px rgba(0, 0, 0, 0.1);
+        transform-origin: top right;
+        background-color: #fff;
+        display: none;
+        --scale-from: 0;
+        --scale-to: 1;
+        animation: fade-in 0.3s linear, grow-up 0.3s linear;
+    }
+
+
+    
 }
