@@ -1,45 +1,9 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+#slide video {
+    width: 100%;
 }
 
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background-color: #e9e9e9;
-}
-
-:root {
-    --primary-color: #f14607;
-    --white-color: #fff;
-    --border-color: #999;
-    --text-color: #333;
-    --gray-color: #8F8A8A;
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-
-@keyframes grow-up {
-    from {
-        transform: scale(0);
-    }
-
-    to {
-        transform: scale(1);
-    }
-}
 
 .hidden {
     display: none;
@@ -236,13 +200,11 @@ body {
 
 .car__item-parameter .parameter-3 i {
     color: var(--primary-color);
-
 }
 
 .car__item-parameter .parameter i {
     margin-right: 4px;
 }
-
 
 /* Search form */
 #search__form {

@@ -1,40 +1,13 @@
-@import "/assets/css/header.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
-
-
 
 /* Product */
 .product-header {
     text-align: center;
     font-size: 4rem;
     color: var(--text-color);
-    position: relative;
     margin: 60px 0;
-    background-color: red;
-}
-
-.product-header::before,
-.product-header::after {
-    position: absolute;
-    content: '';
-    width: 268px;
-    height: 2px;
-    background-color: var(--primary-color);
-}
-
-.product-header::before {
-    left: 0;
-    top: 50%;
-}
-
-.product-header::after {
-    right: 0;
-    top: 50%;
 }
 
 .car-item {
-    /* width: 410px; */
-    /* height: 450px; */
     margin-top: 20px;
     padding-bottom: 20px;
     border: 1px solid var(--border-color);
