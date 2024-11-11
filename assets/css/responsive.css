@@ -1,5 +1,12 @@
 /* Mobile */
 @media (max-width: 575px) {
+    .control-bar__total-car {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .control-bar__sort {
+        justify-content: center !important;
+    }
 
 }
 
@@ -12,7 +19,7 @@
         right: 0;
         bottom: 0;
         top: 0;
-        width: 70%;
+        width: 50%;
         transform: translateX(100%);
         transition: transform 0.3s linear;
         background-color: var(--black-color);
@@ -30,24 +37,23 @@
         background-color: #000;
     }
 
-    .drop-down--content > .navbar__item {
-        padding: 10px 30px;
-       
+    .drop-down--content > .drop-down--item {
+        padding: 10px 40px;    
+    }
+
+    .drop-down--content > .drop-down--item:hover {
+        background-color: #353535; 
     }
 
     .navbar__item:hover {
-        background-color: #959595;
+        background-color: #282828;
     }
 
     .navbar__link {
-        color: var(--white-color);
+        color: var(--white-text-color) !important;
         display: block;
         padding: 10px 30px;
     }
-
-    /* .drop-down--container:hover .drop-down--content {
-        height: 123px;
-    } */
 
     .show-link {
         height: 123px !important;
@@ -66,8 +72,7 @@
     }
 
     .drop-down--item {
-        border: none;
-      
+        border: none;    
     }
 
     .drop-down--item a {
@@ -98,20 +103,22 @@
 
     .car__item {
         flex-direction: column;
-        align-items: center;
-        /* display: block; */
-        /* background-color: red; */
     }
     
-    .car__item-left {
-        width: 100%;
+    .car__item-left img {
+       height: 280px !important;
     }
 
     .car__item-right {
-        width: 100%;
-        padding: 30px 0 10px;
-        margin: 0 auto;
+       padding-top: 10px;
+       width: 100%;
     }
+
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+   
 }
 
 
@@ -121,7 +128,7 @@
 
 }
 
-
+/* PC */
 @media (min-width: 1024px) {
     .navbar__list > .navbar__item::before{
         position: absolute;
@@ -142,6 +149,14 @@
     .navbar__link:hover:not(.active) {
         color: var(--primary-color);
     }
+
+    .drop-down--item:first-child {
+        border-radius: 6px 6px 0 0;
+    }
+    
+    .drop-down--item:last-child {
+        border-radius: 0 0 6px 6px;
+    }
     
 
     .hide-on-pc {
@@ -160,6 +175,9 @@
         animation: fade-in 0.3s linear, grow-up 0.3s linear;
     }
 
+    .car__item-right {
+        padding: 10px 0 10px 20px;
+    }
 
     
 }
