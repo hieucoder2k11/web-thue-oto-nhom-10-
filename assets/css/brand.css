@@ -122,6 +122,10 @@ main {
     border: 1px solid var(--border-color);
     background-color: var(--white-color);
     display: none;
+    transform-origin: top center;
+    --grow-from: 0;
+    --grow-to: 1;
+    animation: fade-in 0.3s linear, grow-up 0.3s linear;
 }
 
 .control-bar__sort ul::before {

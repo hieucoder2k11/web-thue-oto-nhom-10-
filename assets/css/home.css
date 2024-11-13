@@ -193,14 +193,8 @@
     font-weight: bold;
 }
 
-#product .btn-show {   
-    text-align: center;
-    margin: 50px;
-} 
-
-#product .btn-show a {
-    text-transform: capitalize;
+#product .btn-show  {
     font-size: 1.4rem;
-    padding: 10px 40px;
-    border-radius: 4px;
+    padding: 16px 42px;
+    margin: 80px 0;
 }
