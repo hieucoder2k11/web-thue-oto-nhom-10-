@@ -1,4 +1,5 @@
-
+import {object} from './db.js'
+console.log(object)
 start()
 function start() {
     renderCars()
@@ -6,51 +7,7 @@ function start() {
 }
 
 function renderCars() {
-    const carItems = object.audiCars.map(item => {
-        return `
-              <div class="car__item">
-                    <div class="car__item-img car__item-left">
-                        <img src="${item.image}" alt="${item.name}">
-                    </div>
-                    <div class="car__item-right">
-                        <div class="car__item--top">
-                            <div class="car__item-status">
-                                <p>Cho thuê</p>
-                                <p>${item.status}</p>
-                            </div>                                
-                            <p class="car__item-price"><span>$${item.price}</span>/Mo</p>
-                        </div>
-                        <h2 class="car__item-name">audi r8 coupe car modal</h2>
-                        <p class="car__item-des">
-                            ${item.des}
-                        </p>
-                        <hr>
-                        <div class="car__item--bottom">
-                            <button class="button book-btn">
-                                đặt ngay
-                                <i class="fa-solid fa-phone"></i>
-                            </button>
-                            <div class="car__item-parameter">
-                                <p class="parameter-1 parameter">
-                                    <i class="fa-solid fa-gear"></i>
-                                    automatic
-                                </p>
-                                <p class="parameter-2 parameter">
-                                    <i class="fa-solid fa-gas-pump"></i>
-                                    ${item.fuel}
-                                </p>
-                                <p class="parameter-3 parameter">
-                                    <i class="fa-solid fa-road"></i>
-                                    7500km
-                                </p>
-                            </div>
-                        </div>
-                    </div>                        
-                </div>        
-        `
-    })
-
-    document.querySelector('.car__list-item').innerHTML = carItems.join('')
+    
 }
 
 
@@ -97,6 +54,24 @@ function handleEvent() {
         setTimeout(function() {
             changeAdvertises(index)
         }, 6000)
+    }
+
+
+    // Thay doi layout khi click
+    document.querySelector('.layout-icon-1').onclick = function(e) {
+        document.querySelector('.layout-section.active').classList.remove('active')
+        e.target.classList.add('active')
+        document.querySelector('.layout.active').classList.remove('active')  
+
+        document.querySelector('.layout-1').classList.add('active')  
+    }
+    document.querySelector('.layout-icon-2').onclick = function(e) {
+        document.querySelector('.layout-section.active').classList.remove('active')
+        
+        e.target.classList.add('active')
+        document.querySelector('.layout.active').classList.remove('active')  
+
+        document.querySelector('.layout-2').classList.add('active')  
     }
 }
 

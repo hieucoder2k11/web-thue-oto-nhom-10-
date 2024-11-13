@@ -1,6 +1,6 @@
 @import "/assets/css/header.css";
+@import "/assets/css/footer.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
-
 
 :root {
     --primary-color: #f14607;
@@ -8,6 +8,8 @@
     --black-color: #000;
     --border-color: #bababa;
     --text-color: #333;
+    --white-text-color: #ececec;
+    --gray-color: #adadad;
 }
 
 * {
@@ -53,4 +55,63 @@ html {
     display: none;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    min-width: 60px;
+    min-height: 20px; 
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+.button-effect1 {  
+    border: none;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.button-effect2 {
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 2px solid var(--primary-color);
+    color: #fff;
+    letter-spacing: 3px;
+    z-index: 1;
+}
+
+.button-effect1::before, 
+.button-effect2::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform-origin: center center;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
+
+.button-effect1::before { 
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button-effect2::before { 
+    background-color: var(--primary-color);
+    z-index: -1;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button:hover::before {
+    width: 100%;  
+}
+
+.hidden {
+    display: none;
 }

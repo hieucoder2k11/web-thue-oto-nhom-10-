@@ -1,22 +1,27 @@
 function headerEvents() {
-    let header = document.querySelector('.header')
-    // console.log(header)
+    const header = document.querySelector('#header header')
     const headerHeight = header.offsetHeight
+
     window.onscroll = function() {
         header.style.top = -window.scrollY + 'px'
-        console.log(window.scrollY)
         if( window.scrollY >= headerHeight*6) {
             header.classList.add('fade-in')
             header.style.top = 0
             header.style.backgroundColor = '#fff'
             header.style.height = headerHeight*1.5 + 'px'
             header.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)'
+            document.querySelectorAll("#header header .navbar__item > .navbar__link").forEach(link => {
+                link.style.color = '#000'
+            })
         }
         else {
             header.classList.remove('fade-in')
             header.style.backgroundColor = 'transparent'
             header.style.height = headerHeight + 'px'     
             header.style.boxShadow = ''
+            document.querySelectorAll("#header header .navbar__item > .navbar__link").forEach(link => {
+                link.style.color = 'var(--white-text-color)'
+            })
         }
     }
   
