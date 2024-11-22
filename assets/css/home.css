@@ -330,6 +330,7 @@
 .car-service__title {
     color: var(--primary-color);
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .car-service__slogan {
@@ -377,9 +378,91 @@
     color: var(--primary-color);
 }
 
+.car-service__criteria li i:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
 .car-service__button {
     font-size: 1.4rem;
     padding: 10px 32px;
 }
 
 /* end carService  */
+
+/* car-factArea  */
+.car-factArea{
+    width: 100%;
+    background-image: url(../images/Service-img/fact-area-ct.jpg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    padding: 80px 0 80px 0;
+    margin: 100px 0 100px 0;
+    color: var(--white-color);
+    position: relative;
+}
+.car-factArea::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-color);
+    opacity: 0.5;
+}
+.car-factArea__title{
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 7px 40px;
+    max-width: 300px;
+    font-size: 12px;
+}
+.car-factArea__title::before {
+    content: "";
+    position: absolute;
+    left: -19px;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 56% 50%, 0% 0%);
+    background: var(--primary-color);
+}
+.car-factArea__title::after {
+    content: "";
+    position: absolute;
+    right: -19px;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    clip-path: polygon(100% 0%, 45% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    background: var(--primary-color);
+}
+.car-factArea__item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+.car-factArea__icon{
+    font-size: 64px;
+    margin-right: 15px;
+}
+.car-factArea__icon:hover{
+    color: var(--primary-color);
+}
+.car-factArea__quantity{
+    font-size: 34px;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+.car-factArea__desc{
+    text-align: left;
+    font-weight: 500;
+}
+/*  end car-factArea  */
