@@ -5,7 +5,6 @@
     height: 100vh; 
     overflow: hidden;
 }
-
 .image-bg {
     position: absolute;
     width: 100%;
@@ -37,7 +36,35 @@
         opacity: 0;
     }
 }
-
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car__title{
+    font-size: 50px;
+    color: var(--primary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
+.car__title--set{
+    color: var(--white-color); 
+    margin-left: 150px; 
+    margin-top: 10px;
+    font-size: 40px;
+}
+.car__button--book{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    padding: 16px 42px;
+    margin: 80px 0;
+}
 /* end bg-image */
 
 /* Product */
@@ -239,3 +266,84 @@
     padding: 16px 42px;
     margin: 80px 0;
 }
+
+/* carService  */
+.carService{
+    background-color: var(--service-color);
+    padding: 70px 0 70px 0;
+    color: var(--white-color);
+    
+}
+.carService .row{
+    display: flex;
+    justify-content: space-between;
+}
+.carService__img{
+    display: flex;
+    justify-content: space-between;
+}
+.carService__img .wrap{
+    display: flex;
+    flex-direction: column;
+}
+.carService__img .wrap img{
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.carService__img .wrap {
+    width: 48%;
+}
+.carService__img--set{
+    width: 48%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.carService__img p{
+    font-size: 120px;
+    font-weight: 600;
+    text-align: center;
+}
+.carService__title{
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+.carService__slogan{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.carService__slogan--set{
+    margin-left: 70px;
+}
+.carService__desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.carService__desc img{
+    margin-right: 15px;
+}
+
+.carService__criteria li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.carService__criteria li i{
+    background-color: var(--checkService-color);
+    border-radius: 45px;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: var(--primary-color);
+}
+.carService__button{
+    font-size: 1.4rem;
+    padding: 10px 32px;
+}
+/* end carService  */

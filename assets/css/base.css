@@ -10,6 +10,8 @@
     --text-color: #333;
     --white-text-color: #ececec;
     --gray-color: #adadad;
+    --service-color: #111822;
+    --checkService-color: #204A86;
 }
 
 * {
@@ -23,6 +25,9 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+p{
+    margin-bottom: 0 !important;
+}
 
 @keyframes fade-in {
     from {
