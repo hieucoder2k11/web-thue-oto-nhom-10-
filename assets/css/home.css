@@ -2,9 +2,10 @@
 .image-container {
     position: relative;
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     overflow: hidden;
 }
+
 .image-bg {
     position: absolute;
     top: 0;
@@ -21,30 +22,36 @@
 }
 
 .image-bg:nth-child(2) {
-    animation-delay: 3s; 
+    animation-delay: 3s;
 }
 
 .image-bg:nth-child(3) {
-    animation-delay: 6s; 
+    animation-delay: 6s;
 }
 
 @keyframes slide {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 0;
     }
+
     33% {
         opacity: 1;
     }
+
     66% {
         opacity: 0;
     }
 }
-.home{
+
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.car__title{
+
+.car__title {
     font-size: 50px;
     color: var(--primary-color);
     position: absolute;
@@ -53,21 +60,25 @@
     transform: translate(-50%, -50%);
     font-weight: 700;
 }
-.car__title--set{
-    color: var(--white-color); 
-    margin-left: 150px; 
+
+.car__title--set {
+    color: var(--white-color);
+    margin-left: 150px;
     margin-top: 10px;
     font-size: 40px;
 }
-.car__button--book{
+
+.car__button--book {
     position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
     font-size: 1.4rem;
-    padding: 16px 42px;
-    margin: 80px 0;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    top: 80%;
 }
+
 /* end bg-image */
 
 /* Product */
@@ -139,7 +150,7 @@
 } */
 
 .cart-icon:hover::after {
-    animation: rotate 10s linear infinite;          
+    animation: rotate 10s linear infinite;
 }
 
 @keyframes rotate {
@@ -235,7 +246,7 @@
     color: var(--text-color);
 }
 
-.car-parameter .parameter i{
+.car-parameter .parameter i {
     width: 16px;
     height: 16px;
     font-size: 16px;
@@ -255,86 +266,106 @@
     color: #e5ac32f4;
     cursor: pointer;
 }
+
 .car-item-price {
     margin-left: auto;
 }
+
 .car-item-price .price {
     color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-#product .btn-show  {
+#product .btn-show {
     font-size: 1.4rem;
     padding: 16px 42px;
     margin: 80px 0;
 }
 
 /* carService  */
-.carService{
+.car-service {
     background-color: var(--service-color);
     padding: 70px 0 70px 0;
     color: var(--white-color);
-    
+
 }
-.carService .row{
+
+.car-service .row {
     display: flex;
     justify-content: space-between;
 }
-.carService__img{
+
+.car-service__img {
     display: flex;
     justify-content: space-between;
 }
-.carService__img .wrap{
+
+.car-service__img .wrap {
     display: flex;
     flex-direction: column;
 }
-.carService__img .wrap img{
+
+.car-service__img .wrap img {
     margin-right: 20px;
     border-radius: 10px;
 }
-.carService__img .wrap {
+
+.car-service__img .wrap {
     width: 48%;
 }
-.carService__img--set{
+
+.car-service__img--set {
     width: 48%;
     border-radius: 10px;
     margin-right: 20px;
 }
-.carService__img p{
+
+.car-service__img p {
     font-size: 120px;
     font-weight: 600;
     text-align: center;
 }
-.carService__title{
+
+.car-service__title {
     color: var(--primary-color);
     margin-bottom: 15px;
 }
-.carService__slogan{
+
+.car-service__slogan {
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.carService__slogan--set{
+
+.car-service__slogan--set {
     margin-left: 70px;
 }
-.carService__desc{
+
+.car-service__desc {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.carService__desc img{
+
+.car-service__desc p,
+.car-service__criteria li p {
+    font-size: 1.4rem;
+}
+
+.car-service__desc img {
     margin-right: 15px;
 }
 
-.carService__criteria li{
+.car-service__criteria li {
     display: flex;
     list-style-type: none;
     align-items: center;
     margin-bottom: 15px;
 
 }
-.carService__criteria li i{
+
+.car-service__criteria li i {
     background-color: var(--checkService-color);
     border-radius: 45px;
     width: 23px;
@@ -345,8 +376,10 @@
     margin-right: 15px;
     color: var(--primary-color);
 }
-.carService__button{
+
+.car-service__button {
     font-size: 1.4rem;
     padding: 10px 32px;
 }
+
 /* end carService  */

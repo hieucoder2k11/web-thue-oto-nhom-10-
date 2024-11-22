@@ -70,6 +70,7 @@ p{
     text-decoration: none;
     text-align: center;
     position: relative;
+    cursor: pointer;
 }
 
 .button-effect1 {  
