@@ -347,7 +347,7 @@
 }
 
 .car-service__desc p,
-.car-service__criteria li p {
+.criteria-sample li p {
     font-size: 1.4rem;
 }
 
@@ -355,30 +355,6 @@
     margin-right: 15px;
 }
 
-.car-service__criteria li {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    margin-bottom: 15px;
-
-}
-
-.car-service__criteria li i {
-    background-color: var(--checkService-color);
-    border-radius: 45px;
-    width: 23px;
-    height: 23px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-    color: var(--primary-color);
-}
-
-.car-service__criteria li i:hover{
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
 .car-service__button {
     font-size: 1.4rem;
     padding: 10px 32px;

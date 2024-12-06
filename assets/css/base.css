@@ -125,3 +125,30 @@ p{
 .hidden {
     display: none;
 }
+
+/* check  */
+.criteria-sample li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.criteria-sample li i {
+    background-color: var(--checkService-color);
+    border-radius: 45px;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: var(--primary-color);
+}
+
+.criteria-sample li i:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+/* end check  */
