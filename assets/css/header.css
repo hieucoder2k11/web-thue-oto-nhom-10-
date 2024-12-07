@@ -15,9 +15,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    /* background-color: red; */
-    /* height: 100px; */
 }
 
 .header__logo {
@@ -60,7 +57,6 @@ header {
 .navbar__link.active {
     color: var(--primary-color) !important;
 }
-
 
 .drop-down--container {
     position: relative;
@@ -113,13 +109,10 @@ header {
 }
 
 /* .drop-down--item */
-
-
 .drop-down--item:hover {
     border-color: var(--primary-color);
     background-color: #e7e6e6;
 }
-
 
 .header__icon {
     display: flex;
@@ -127,12 +120,10 @@ header {
     align-items: center;
     width: 200px;
     column-gap: 20px;
-    /* background-color: red; */
 }
 
 .header__cart {
-    position: relative;
-    
+    position: relative;   
 }
 
 .header__cart-icon {
@@ -161,7 +152,6 @@ header {
     z-index: 1;
 }
 
-
 .header__cart-icon--drop-down {
     position: absolute;
     display: none;
@@ -187,7 +177,6 @@ header {
 
 .header__search input:focus {
     width: 100%;
-
 }
 
 .header__search label i {
@@ -205,11 +194,11 @@ header {
     font-size: 3rem;
     display: none;
     cursor: pointer;
-    color: #393939;
+    color: var(--primary-color); 
 }
 
 .navbar__list .close-navbar:hover, .bars .open-navbar:hover {
-    color: var(--primary-color);
+    filter: brightness(80%);
 }
 
 .bars i:active {

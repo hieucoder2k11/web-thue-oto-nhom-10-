@@ -1,7 +1,7 @@
 footer {
     padding: 50px 0;
     color: var(--white-text-color);
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.redd.it/jbtxglasnxb71.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.redd.it/jbtxglasnxb71.jpg) no-repeat center/cover;
     /* background-attachment: fixed; */
 }
 .footer-contact__item {

@@ -1,4 +1,4 @@
-function headerEvents() {
+function handleEvent() {
     const header = document.querySelector('#header header')
     const headerHeight = header.offsetHeight
 
@@ -53,7 +53,7 @@ function headerEvents() {
 
     document.querySelector('.navbar__item.drop-down--container').onclick = function() {
         document.querySelector('.drop-down--content').classList.toggle('show-link')
-    }
-        
-    
+    }   
 }
+
+setTimeout(handleEvent, 500)
