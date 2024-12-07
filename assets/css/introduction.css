@@ -9,6 +9,7 @@
     display: flex; 
     justify-content: center; 
     align-items: center; 
+    background-attachment: fixed;
 }
 
 .carIntro-bg__content{
@@ -96,3 +97,37 @@
     font-weight: 600;
 }
 /* end carIntro-team */
+
+/* carIntro-exper */
+.carIntro-exper{
+    margin: 80px 0 80px 0;
+}
+.carIntro-exper .container{
+    background-image: url(../images/Service-img/app_download_bg.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    background-position: center;
+    border-radius: 5px;
+}
+.carIntro-exper__title{
+    font-size: 250px;
+    color: var(--white-color);
+    
+}
+.carIntro-exper__img{
+    position: relative;
+    height: 100vh;
+    width: auto;
+}
+.carIntro-exper__img img{
+    position: absolute;
+    border-radius: 10px;
+    top: -130px;
+    right: -70px;
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+}
+/* end carIntro-exper */
