@@ -100,34 +100,56 @@
 
 /* carIntro-exper */
 .carIntro-exper{
-    margin: 80px 0 80px 0;
+    position: relative;
+    margin-bottom: 80px;
 }
-.carIntro-exper .container{
-    background-image: url(../images/Service-img/app_download_bg.png);
-    background-repeat: no-repeat;
-    width: auto;
-    height: 400px;
+.carIntro-exper__bg{
+    width: 100%;
+}
+.carIntro-exper__bg img{
+    width: 100%;
     background-position: center;
-    border-radius: 5px;
 }
-.carIntro-exper__title{
-    font-size: 250px;
-    color: var(--white-color);
-    
+.carIntro-exper__content{
+    position: absolute;
+    left: 70px;
+    top: 57px;
 }
 .carIntro-exper__img{
-    position: relative;
-    height: 100vh;
-    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
 }
 .carIntro-exper__img img{
-    position: absolute;
+    width: 45%;
     border-radius: 10px;
-    top: -130px;
-    right: -70px;
-    width: 350px;
-    height: 500px;
-    background-size: cover;
-    overflow: hidden;
+    margin: 0 10px 10px 0;
+    transition: transform 0.3s;
+}
+.carIntro-exper__img img:hover{
+    transform: scale(1.05);
+}
+.carIntro-exper__content{
+    text-align: center;
+}
+.carIntro-exper__title{
+    font-size: 230px;
+    font-weight: 800;
+    color:  var(--white-color);
+    /* -webkit-text-stroke: 10px var(--checkService-color); */
+}
+.carIntro-exper__decs{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.carIntro-exper__slg{
+    font-size: 25px;
+    color: var(--white-color);
+    font-weight: 500;
+    text-transform: capitalize;
 }
 /* end carIntro-exper */
