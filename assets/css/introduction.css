@@ -9,6 +9,7 @@
     display: flex; 
     justify-content: center; 
     align-items: center; 
+    background-attachment: fixed;
 }
 
 .carIntro-bg__content{
@@ -96,3 +97,59 @@
     font-weight: 600;
 }
 /* end carIntro-team */
+
+/* carIntro-exper */
+.carIntro-exper{
+    position: relative;
+    margin-bottom: 80px ;
+}
+.carIntro-exper__bg{
+    width: 100%;
+}
+.carIntro-exper__bg img{
+    width: 100%;
+    background-position: center;
+}
+.carIntro-exper__content{
+    position: absolute;
+    left: 70px;
+    top: 57px;
+}
+.carIntro-exper__img{
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.carIntro-exper__img img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+    transition: transform 0.3s;
+}
+.carIntro-exper__img img:hover{
+    transform: scale(1.05);
+}
+.carIntro-exper__content{
+    text-align: center;
+}
+.carIntro-exper__title{
+    font-size: 230px;
+    font-weight: 800;
+    color:  var(--white-color);
+    /* -webkit-text-stroke: 10px var(--checkService-color); */
+}
+.carIntro-exper__decs{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.carIntro-exper__slg{
+    font-size: 25px;
+    color: var(--white-color);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* end carIntro-exper */
