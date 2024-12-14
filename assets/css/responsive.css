@@ -19,7 +19,28 @@
     }
 
     /* end home__image */
+    .control-bar__total-car {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
 
+    .control-bar__sort {
+        justify-content: center !important;
+    }
+
+    /* home__image */
+    .car__title {
+        font-size: 30px;
+
+    }
+
+    .car__title--set {
+        font-size: 20px;
+        margin-left: 80px;
+    }
+    .car-factArea__item{
+   
+    }
 }
 
 /* Mobile and tablet */
@@ -141,40 +162,44 @@
     }
 
     /* end home__image */
-
-
-}
-/* Mobile */
-@media (max-width: 575px) {
-    .control-bar__total-car {
-        margin: 0 auto;
-        margin-bottom: 40px;
+    /* introduction  */
+    .carIntro-wlc__content{
+        margin-bottom: 25px;
     }
-
-    .control-bar__sort {
-        justify-content: center !important;
+    .carIntro-team__img{
+        margin-bottom: 50px;
     }
-
-    /* home__image */
-    .car__title {
+    .carIntro-team__criteria p{
+        font-size: 14px;
+    }
+    .carIntro-exper__bg{
+        display: none;
+    }
+    /* .carIntro-exper{
+        padding: 100px 0 100px 0;
+    } */
+    .carIntro-exper__content{
+        position: static;
+        margin-bottom: 300px;
+    }
+    .carIntro-exper__title{
+        font-size: 130px;
+        color: var(--primary-color);
+    }
+    .carIntro-exper__decs{
         font-size: 30px;
-
     }
-
-    .car__title--set {
-        font-size: 20px;
-        margin-left: 80px;
+    .carIntro-exper__slg{
+        font-size: 50px;
+        color: var(--primary-color);
     }
-    .car-factArea__item{
-   
+    .carIntro-exper__img{
+        position: static;
+        
     }
-    /* end home__image */
+    /* end introduction  */
 
 }
-
-/* Tablet and low pc */
-@media (min-width: 576px) and (max-width: 1023px) {}
-
 /* PC */
 @media (min-width: 1024px) {
     .navbar__list>.navbar__item::before {
@@ -225,6 +250,5 @@
     .car__item-right {
         padding: 10px 0 10px 20px;
     }
-
 
 }
