@@ -1,0 +1,63 @@
+/* carContact-bg  */
+.carContact-bg {
+    background-image: url(../images/background/BG-CONTACT.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.carContact-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    /* clip-path: ellipse(100% 100% at 0% 50%); */
+    z-index: 0;
+}
+
+.carContact-bg__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.carContact-bg__slg {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.carContact-bg__title {
+    color: var(--white-color);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.carContact-bg__desc {
+    font-size: 14px;
+    color: var(--white-color);
+    margin-bottom: 50px !important;
+}
+
+.carContact-bg__btn {
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+/* end carContact-bg  */
