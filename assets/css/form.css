@@ -52,7 +52,6 @@ label{
 .form-control-1 {
     display: block;
     width: 100%;
-<<<<<<< HEAD
     padding: 2rem 1rem;
     font-size: 1rem;
     font-weight: 400;
@@ -64,39 +63,12 @@ label{
     appearance: none;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-=======
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 1px solid #333;
-    outline: none;
->>>>>>> 2c0b315ecdc5df818ec60d899ea4e428c5ab78bb
 }
 .set-width{
     width: 47%;
 }
-<<<<<<< HEAD
 .info-people input, textarea, select{
     margin-top: 10px;
     margin-bottom: 18px;
     /* padding: 10px; */
-=======
-.info-people input, textarea, select, label, .info-commune, #time{
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-.btn{
-    width: 100%;
-}
-.btn-form{
-    width: 150px;
-    height: 45px;
-    line-height: 45px;
-    font-size: 16px;
-    border-radius: 10px;
-    color: var(--primary-color);
-    background-color: var(--white-color);
-    font-weight: 600;
-    margin-top: 20px;
-    text-align: center;
->>>>>>> 2c0b315ecdc5df818ec60d899ea4e428c5ab78bb
 }
