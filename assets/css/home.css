@@ -1,4 +1,7 @@
 /* bg-image */
+.home-page {
+    color: var(--primary-color) !important;
+}
 .img-container {
     position: relative;
     width: 100%;

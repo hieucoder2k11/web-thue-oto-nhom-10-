@@ -1,4 +1,7 @@
 /* carContact-bg  */
+.contact-page {
+    color: var(--primary-color) !important;
+}
 .carContact-bg {
     background-image: url(../images/background/BG-CONTACT.jpg);
     width: 100%;
