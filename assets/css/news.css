@@ -1,4 +1,7 @@
 /* carNews-bg  */
+.news-page {
+    color: var(--primary-color) !important;
+}
 .carNews-bg {
     background-image: url(../images/news-img/bg-3.jpg);
     width: 100%;
