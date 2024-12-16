@@ -58,7 +58,7 @@
     <!-- form contact -->
     <div class="form-contact">
         <div class="container">
-            <div class="row">
+            <div class="row father-box">
                 <div class="box-1 col-xl-6 col-md-12 col-sm-12">
                     <div class="infor">
                         <h4>THÔNG TIN LIÊN HỆ</h4>
@@ -107,10 +107,12 @@
                         <br />
                         <input type="text" id="email" name="email" placeholder="Tên gmail @gmail.com" />
                         <br />
-                        <label for="fullName">Tin nhắn của bạn*</label>
+                        <label for="message">Tin nhắn của bạn*</label>
                         <br />
-                        <input type="text" id="message" name="message" placeholder="Xin chào......." /><br />
-                        <input type="submit" value="XÁC NHẬN" />
+                        <textarea type="text" id="message" name="message" placeholder="Xin chào......." ></textarea><br />
+                        <div class="btn">
+                            <button class="button button-effect2 btn-contact">XÁC NHẬN</button>
+                        </div>
                     </form>
 
 
@@ -130,7 +132,7 @@
 
 
 
-    <!-- <section id="footer"></section> -->
+    <section id="footer"></section>
     <div id="overlay"></div>
     <script type="module" src="../assets/js/main.js"></script>
     <script src="../assets/js/loadComponent.js"></script>
