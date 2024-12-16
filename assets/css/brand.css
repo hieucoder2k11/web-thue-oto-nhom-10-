@@ -433,12 +433,16 @@ main {
     margin-top: 52px;
     border: 1px solid var(--border-color);
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
-    /* display: none; */
+    display: none;
     transform-origin: top center;
     animation: fade-in 0.2s linear, grow-up 0.2s linear;
     background-color: #fff;
 
 } 
+
+#search__form .form-input .list-item.active {
+    display: block;
+}
 
 #search__form .form-input .list-item:before {
     content: '';

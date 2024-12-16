@@ -4,16 +4,17 @@
 .inner-wrap{
     display: flex;
     justify-content: space-between;
+  
 }
 .form-control {
     display: block;
     width: 100%;
-    padding: .35rem .75rem;
+    padding: 2rem 1rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.8;
-    color: #212529;
-    background-color: #fff;
+    color: #ffffff;
+    /* background-color: #ff0b0b !important; */
     background-clip: padding-box;
     border: 1px solid #ced4da;
     appearance: none;
@@ -26,4 +27,5 @@
 .info-people input, textarea, select{
     margin-top: 10px;
     margin-bottom: 18px;
+    /* padding: 10px; */
 }
