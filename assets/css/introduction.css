@@ -91,7 +91,7 @@
     margin-top: -25px;
 }
 .carIntro-team__criteria p{
-    font-size: 20px !important;
+    font-size: 20px ;
     color: var(--black-color);
     text-align: center;
     font-weight: 600;
@@ -101,7 +101,7 @@
 /* carIntro-exper */
 .carIntro-exper{
     position: relative;
-    margin-bottom: 80px ;
+    margin-bottom: 80px;
 }
 .carIntro-exper__bg{
     width: 100%;

@@ -109,8 +109,7 @@ h1.heading {
 }
 
 .article--bottom .row {
-    display: flex;
-    justify-content: space-between;
+    
 }
 
 .paragraphs {
@@ -122,13 +121,13 @@ h1.heading {
     margin-bottom: 50px;
     border-radius: 10px;
     padding: 0;
-    width: 24%;
+    cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform .3s ease;
 }
 
 .article--bottom .aside:hover {
-    transform: scale(1.03);
+    transform: scale(0.97);
 }
 
 .article--bottom .aside img {
