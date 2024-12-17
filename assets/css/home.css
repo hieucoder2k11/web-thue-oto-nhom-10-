@@ -463,19 +463,48 @@
     width: 50%;
 
 }
+.car-news-img {
+    margin-bottom: 17px;
+    text-align: center;
+ 
+   
+}
+.box h6{
+    font-size: 15px;
+    color: var(--primary-color);
+}
+.box{
+    border: 1px solid rgb(233, 229, 229);
+    /* margin: 5px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   padding: 10px;
+   width: 250px;
+   height: 500px;
+}
+.box .car-news-img{
+   
+}
+.car-news .container{
+  /* display: flex; */
+
+}
+
+
 .car-news-icon {
     display: flex;
     align-items: center; 
-    gap: 10px; 
+    justify-content:space-around;
+    padding: 15px; 
+    font-size: 20px;
+    margin-top: 30px;
+    
+
+}
+.car-news-icon .icon i{
+    margin-right: 20px;
+    color: var(--primary-color);
 }
 
-.car-news-icon .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.car-news-icon h4 {
-    margin: 0; 
-}
+
 /* end car-new */
