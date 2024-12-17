@@ -49,26 +49,38 @@ label{
     justify-content: space-between;
   
 }
-.form-control-1 {
-    display: block;
+.form-control-1{
     width: 100%;
-    padding: 2rem 1rem;
-    font-size: 1rem;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.8;
-    color: #ffffff;
-    /* background-color: #ff0b0b !important; */
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    appearance: none;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: var(--black-color);
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid var(--primary-color);
 }
 .set-width{
     width: 47%;
 }
-.info-people input, textarea, select{
+.info-people input, textarea, select, #time, .form-select{
     margin-top: 10px;
     margin-bottom: 18px;
-    /* padding: 10px; */
+}
+.btn{
+    width: 100%;
+}
+.btn .btn-form{
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn .btn-form:hover{
+    color: var(--white-color);
 }

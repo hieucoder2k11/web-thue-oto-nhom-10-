@@ -2,6 +2,7 @@
 .home-page {
     color: var(--primary-color) !important;
 }
+
 .img-container {
     position: relative;
     width: 100%;
@@ -366,18 +367,19 @@
 /* end carService  */
 
 /* car-factArea  */
-.car-factArea{
+.car-factArea {
     width: 100%;
     background-image: url(../images/Service-img/fact-area-ct.jpg.png);
     background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover; 
+    background-position: center;
+    background-size: cover;
     padding: 80px 0 80px 0;
     margin: 100px 0 100px 0;
     color: var(--white-color);
     position: relative;
 }
-.car-factArea::before{
+
+.car-factArea::before {
     content: '';
     position: absolute;
     top: 0;
@@ -387,7 +389,8 @@
     background-color: var(--black-color);
     opacity: 0.5;
 }
-.car-factArea__title{
+
+.car-factArea__title {
     position: absolute;
     top: -15px;
     left: 0;
@@ -399,6 +402,7 @@
     max-width: 300px;
     font-size: 12px;
 }
+
 .car-factArea__title::before {
     content: "";
     position: absolute;
@@ -409,6 +413,7 @@
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 56% 50%, 0% 0%);
     background: var(--primary-color);
 }
+
 .car-factArea__title::after {
     content: "";
     position: absolute;
@@ -419,43 +424,56 @@
     clip-path: polygon(100% 0%, 45% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
     background: var(--primary-color);
 }
-.car-factArea__item{
+
+.car-factArea__item {
     display: flex;
     align-items: center;
-    text-align: center;
-    z-index: 2;
+    justify-content: center;
 }
-.car-factArea__icon{
+
+.car-factArea-z {
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.car-factArea__icon {
     font-size: 64px;
     margin-right: 15px;
 }
-.car-factArea__icon:hover{
+
+.car-factArea__icon:hover {
     color: var(--primary-color);
 }
-.car-factArea__quantity{
+
+.car-factArea__quantity {
     font-size: 34px;
     color: var(--primary-color);
     font-weight: 800;
 }
-.car-factArea__desc{
+
+.car-factArea__desc {
     text-align: left;
     font-weight: 500;
 }
+
 /*  end car-factArea  */
 
 /* car-news */
-.news{
+.news {
     text-align: center;
     padding: 20px;
 }
-.news p{
+
+.news p {
     color: var(--primary-color);
     font-size: 20px;
 }
-.news h3{
+
+.news h3 {
     font-size: 30px;
 }
-.news hr{
+
+.news hr {
     border: none;
     color: var(--primary-color);
     border-top: 3px solid;
@@ -463,6 +481,7 @@
     width: 50%;
 
 }
+<<<<<<< HEAD
 .car-news-img {
     margin-bottom: 17px;
     text-align: center;
@@ -503,8 +522,21 @@
 .car-news-icon .icon i{
     margin-right: 20px;
     color: var(--primary-color);
+=======
+
+.car-news-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+>>>>>>> 603059c739a15f71cbeca501cfad5b1df2e7b8d2
 }
 
 
+<<<<<<< HEAD
+=======
+.car-news-icon h4 {
+    margin: 0;
+}
+>>>>>>> 603059c739a15f71cbeca501cfad5b1df2e7b8d2
 
 /* end car-new */
