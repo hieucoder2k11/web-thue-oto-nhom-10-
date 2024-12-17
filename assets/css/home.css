@@ -481,12 +481,12 @@
     width: 50%;
 
 }
-<<<<<<< HEAD
 .car-news-img {
     margin-bottom: 17px;
     text-align: center;
- 
-   
+}
+.car-news-img img {
+    width: 100%;
 }
 .box h6{
     font-size: 15px;
@@ -498,7 +498,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    padding: 10px;
    width: 250px;
-   height: 500px;
+   height: auto;
 }
 .box .car-news-img{
    
@@ -522,13 +522,6 @@
 .car-news-icon .icon i{
     margin-right: 20px;
     color: var(--primary-color);
-=======
-
-.car-news-icon {
-    display: flex;
-    align-items: center;
-    gap: 10px;
->>>>>>> 603059c739a15f71cbeca501cfad5b1df2e7b8d2
 }
 
 
