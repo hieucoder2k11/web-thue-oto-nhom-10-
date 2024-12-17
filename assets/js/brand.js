@@ -79,12 +79,14 @@ function handleEvent() {
         formInputs.forEach(formInput => {
             formInput.onclick = () => {
                 const ulElement = formInput.querySelector('ul.list-item')
+              
                 const fieldValue = formInput.querySelector('.field-value')
-                ulElement.classList.toggle('hidden')
+                ulElement.classList.toggle('active')
                 const childs = ulElement.children
                 for(let i = 0; i < childs.length; i++) {
                     childs[i].onclick = (e) => {
                         fieldValue.innerText = e.target.innerText
+                       
                     }
                 }
             }

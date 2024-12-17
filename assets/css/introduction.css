@@ -1,4 +1,7 @@
 /* carIntro-bg  */
+.introduction-page {
+    color: var(--primary-color) !important;
+}
 .carIntro-bg {
     background-image: url(../images/background/bg-pc.jpg);
     width: 100%;

@@ -1,4 +1,7 @@
 /* bg-image */
+.home-page {
+    color: var(--primary-color) !important;
+}
 .img-container {
     position: relative;
     width: 100%;
@@ -439,3 +442,40 @@
     font-weight: 500;
 }
 /*  end car-factArea  */
+
+/* car-news */
+.news{
+    text-align: center;
+    padding: 20px;
+}
+.news p{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.news h3{
+    font-size: 30px;
+}
+.news hr{
+    border: none;
+    color: var(--primary-color);
+    border-top: 3px solid;
+    margin: 10px auto 20px auto;
+    width: 50%;
+
+}
+.car-news-icon {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.car-news-icon .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-news-icon h4 {
+    margin: 0; 
+}
+/* end car-new */

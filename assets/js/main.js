@@ -12,7 +12,11 @@ function renderCars() {
                          <div class="car-item">
                             <div class="car-item-img">
                                 <img src="${carInfo.image}" alt="">
-                                <i class="cart-icon fa-solid fa-cart-plus"></i>
+                                <a href="form.html">
+                                <i class="cart-icon fa-solid fa-cart-plus">
+                                </i>
+                                
+                                </a>
                             </div>
                             <div class="car-item-content">
                                 <h2 class="car-name">${carInfo.name}</h2>

@@ -47,26 +47,29 @@ label{
 .inner-wrap{
     display: flex;
     justify-content: space-between;
+  
 }
-.form-control-1 {
-    display: block;
+.form-control-1{
     width: 100%;
-    padding: 10px 30px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--black-color);
     border-radius: 5px;
-    border: 1px solid #333;
-    outline: none;
+    border: none;
+    outline: 1px solid var(--primary-color);
 }
 .set-width{
     width: 47%;
 }
-.info-people input, textarea, select, label, .info-commune, #time{
-    margin-top: 5px;
-    margin-bottom: 10px;
+.info-people input, textarea, select, #time, .form-select{
+    margin-top: 10px;
+    margin-bottom: 18px;
 }
 .btn{
     width: 100%;
 }
-.btn-form{
+.btn .btn-form{
     width: 150px;
     height: 45px;
     line-height: 45px;
@@ -77,4 +80,7 @@ label{
     font-weight: 600;
     margin-top: 20px;
     text-align: center;
+}
+.btn .btn-form:hover{
+    color: var(--white-color);
 }

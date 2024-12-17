@@ -1,4 +1,7 @@
 /* carContact-bg  */
+.contact-page {
+    color: var(--primary-color) !important;
+}
 .carContact-bg {
     background-image: url(../images/background/BG-CONTACT.jpg);
     width: 100%;
@@ -21,7 +24,6 @@
     height: 100%;
     background-color: black;
     opacity: 0.3;
-    /* clip-path: ellipse(100% 100% at 0% 50%); */
     z-index: 0;
 }
 
@@ -65,23 +67,14 @@
 /* form-contact */
 
 .form-contact {
-
     width: 100%;
-    /* Kéo rộng container ra toàn màn hình */
     padding: 20px;
-
 }
 
 .box-1 {
-    /* border: 1px solid var(--gray-color); */
     width: 50%;
     height: 400px;
-
-
 }
-
-
-
 
 .infor h4 {
     font-size: 20px;
@@ -116,12 +109,16 @@ b {
     height: 40px;
     border-radius: 50%;
     line-height: 40px;
-    border: 2px solid;
+    border: 2px solid white;
     color: #f14607;
     text-align: center;
     font-size: 20px;
-
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   
+}
+.icon:hover{
+    color: white;
+    background-color: #f14607;
 }
 
 .form-contact ul {
@@ -133,10 +130,12 @@ b {
     display: flex;
     align-items: center;
 }
-.form-contact ul li .icon{
+
+.form-contact ul li .icon {
     margin-right: 25px;
 }
-.infor p{
+
+.infor p {
     margin: 25px 0 25px 0 !important;
 }
 
@@ -146,15 +145,12 @@ b {
     padding: 20px;
     background-color: #f0e7e7;
 }
-
-/* Tiêu đề form */
 .request h3 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-/* Dòng kẻ ngang */
 .request hr {
     border: none;
     color: #f14607;
@@ -162,53 +158,40 @@ b {
     margin: 10px auto 20px auto;
     width: 50%;
 }
+.btn{
+    width: 100%;
+}
+.btn .btn-contact{
+    text-align: center;
+}
+.btn-contact{
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
 
-/* Tăng kích thước và làm đẹp cho các trường input */
 form input[type="text"],
 form input[type="email"],
 form textarea {
     width: 100%;
-    /* Chiều rộng toàn phần */
     padding: 10px;
-    /* Tạo khoảng cách bên trong */
     margin: 10px 0;
-    /* Tạo khoảng cách giữa các trường */
     border: 1px solid #ccc;
-    /* Viền nhẹ */
     border-radius: 5px;
-    /* Bo góc */
     font-size: 16px;
-    /* Tăng kích thước chữ */
+
 }
+
 
 form label {
     font-size: 14px;
-}
-
-/* Nút submit */
-form input[type="submit"] {
-    width: 50%;
-    /* Chiều rộng toàn phần */
-    padding: 12px;
-    margin-left: 150px;
-    background-color: #f7f7f8;
-    /* Màu xanh chủ đạo */
-    color: #f14607;
-    /* Chữ màu trắng */
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    /* Tăng kích thước chữ */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border: 2px solid;
-
-}
-
-/* Hiệu ứng hover cho nút submit */
-form input[type="submit"]:hover {
-    background-color: #f14607;
-    color: #f9f9f9;
 }
 
 .map-contact {
@@ -230,5 +213,4 @@ iframe {
     border: 0;
 }
 
-
-    /* end form-contact */
+/* end form-contact */
