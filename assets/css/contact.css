@@ -127,10 +127,10 @@ b {
 
 .icon {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    line-height: 40px;
+    line-height: 45px;
     border: 2px solid white;
     color: #f14607;
     text-align: center;
@@ -148,7 +148,7 @@ b {
 }
 
 .form-contact ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
@@ -167,10 +167,13 @@ b {
     padding: 20px;
     background-color: #f0e7e7;
 }
+.request{
+    margin-top: 50px;
+}
 .request h3 {
     font-size: 24px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 50px 0 30px 0;
 }
 
 .request hr {
@@ -207,13 +210,13 @@ form textarea {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
 
 }
 
 
 form label {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .map-contact {
