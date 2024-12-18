@@ -33,20 +33,22 @@ function handleEvent() {
     openNavbar.onclick = (e)=> {
         document.querySelector('.header__navbar').classList.add('fade-in')
         closeNavbar.style.display = 'block'
+        e.target.style.display = 'none'
         overlay.style.display = 'block'
     }
     closeNavbar.onclick = (e)=> {
         document.querySelector('.header__navbar').classList.remove('fade-in')
         e.target.style.display = 'none'
         overlay.style.display = 'none'
+        openNavbar.style.display = 'block'
     }
 
     window.onclick = (e)=> {
         if(e.target.id == 'overlay') {
             document.querySelector('.header__navbar').classList.remove('fade-in')
-           
+            openNavbar.style.display = 'block'
             closeNavbar.style.display = 'none'
-             overlay.style.display = 'none'
+            overlay.style.display = 'none'
         }
     }
 

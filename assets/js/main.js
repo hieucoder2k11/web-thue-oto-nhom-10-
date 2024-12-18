@@ -56,3 +56,4 @@ function renderCars() {
     })
     carsList.innerHTML = html.join('')
 }
+
