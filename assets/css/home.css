@@ -459,6 +459,9 @@
 /*  end car-factArea  */
 
 /* car-news */
+.car-news{
+    margin-top: 80px;
+}
 .news {
     text-align: center;
     padding: 20px;
@@ -470,7 +473,8 @@
 }
 
 .news h3 {
-    font-size: 30px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .news hr {
@@ -501,6 +505,7 @@
     padding: 10px;
     height: auto;
     transition: transform .3s ease;
+    border-radius: 10px;
 }
 
 .car-news .box:hover {
