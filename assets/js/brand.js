@@ -7,13 +7,6 @@ function start() {
 
 function handleEvent() {
 
-    const bookBtn = document.querySelector('.book-btn')
-    bookBtn.onclick = function() {
-        alert('Đặt hàng thành công')
-    }
-
-
-
     // Thay doi quang cao sau 6 giay
     changeAdvertises()
     function changeAdvertises(index = 0) {
