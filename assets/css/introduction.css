@@ -142,7 +142,6 @@
     font-size: 230px;
     font-weight: 800;
     color:  var(--white-color);
-    /* -webkit-text-stroke: 10px var(--checkService-color); */
 }
 .carIntro-exper__decs{
     font-size: 50px;

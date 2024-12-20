@@ -180,9 +180,6 @@
     .carIntro-exper__bg{
         display: none;
     }
-    /* .carIntro-exper{
-        padding: 100px 0 100px 0;
-    } */
     .carIntro-exper__content{
         position: static;
         margin-bottom: 300px;
@@ -260,3 +257,24 @@
     }
 
 }
+
+@media (max-width: 1199.98px) {
+    /* introduction  */
+    .carIntro-team__criteria li p {
+        font-size: 16px;
+    }
+    .carIntro-exper__img img{
+        width: 40%;
+    }
+    .carIntro-exper__title{
+        font-size: 130px;
+        margin-top: 30px;
+    }
+    .carIntro-exper__decs{
+        font-size: 30px;
+    }
+    .carIntro-exper__slg{
+        font-size: 20px;
+    }
+    /* end introduction  */
+}    
