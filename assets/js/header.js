@@ -58,4 +58,4 @@ function handleEvent() {
     }   
 }
 
-setTimeout(handleEvent, 500)
+setTimeout(handleEvent, 1000)

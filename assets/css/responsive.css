@@ -99,7 +99,7 @@
 
     .drop-down--content {
         position: static;
-        /* display: none; */
+        /* display: none; */ 
         height: 0;
         transition: all 0.3s linear;
         overflow: hidden;
